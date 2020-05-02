@@ -1,4 +1,4 @@
-package com.example.dell.sampleregistration;
+package com.example.dell.ParkingSystem;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

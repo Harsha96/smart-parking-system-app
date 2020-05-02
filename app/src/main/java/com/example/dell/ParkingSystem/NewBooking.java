@@ -1,4 +1,4 @@
-package com.example.dell.sampleregistration;
+package com.example.dell.ParkingSystem;
 import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
@@ -12,7 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class NewBooking extends Activity {

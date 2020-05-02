@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.sampleregistration.EnterInformation"
+    tools:context="com.example.dell.ParkingSystem.EnterInformation"
     android:background="@drawable/qaz">
 
     <TextView
@@ -27,7 +27,8 @@
         android:layout_marginTop="99dp"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/E2"
-        android:hint="Enter Name" />
+        android:hint="Enter Name"
+        android:background="#fafafa" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,7 +47,8 @@
         android:id="@+id/E2"
         android:layout_alignTop="@+id/L2"
         android:layout_alignParentEnd="true"
-        android:hint="Enter Email-Id" />
+        android:hint="Enter Email-Id"
+        android:background="#fcfcfc" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,9 +65,10 @@
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:id="@+id/E3"
+        android:hint="Enter Contact"
+        android:background="#f9f8f8"
         android:layout_alignTop="@+id/L3"
-        android:layout_alignParentEnd="true"
-        android:hint="Enter Contact" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="250dp"
@@ -73,9 +76,11 @@
         android:text="Reg Details"
         android:id="@+id/B1"
         android:onClick="B1Click"
+        android:layout_marginBottom="88dp"
+        android:background="#ee10e3"
+        android:textColor="#fcfafa"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp" />
+        android:layout_alignEnd="@+id/textView2" />
 
     <TextView
         android:layout_width="300dp"
@@ -86,6 +91,7 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/L1"
         android:layout_alignParentStart="true"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:textColorHighlight="#000000" />
 
 </RelativeLayout>

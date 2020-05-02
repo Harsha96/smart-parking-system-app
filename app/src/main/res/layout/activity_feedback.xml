@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.sampleregistration.Feedback"
+    tools:context="com.example.dell.ParkingSystem.Feedback"
     android:background="@drawable/qaz">
 
     <TextView
@@ -37,8 +37,10 @@
         android:id="@+id/editText"
         android:inputType="none"
         android:layout_alignTop="@+id/L2"
-        android:layout_alignParentEnd="true"
-        android:hint="Enter Feedback" />
+        android:hint="Enter Feedback"
+        android:background="#fefcfc"
+        android:layout_alignBottom="@+id/L2"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -49,5 +51,6 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:onClick="onClickB1"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="#fefefe"
+        android:background="#0b2796" />
 </RelativeLayout>

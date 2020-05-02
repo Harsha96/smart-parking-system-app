@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.sampleregistration.Cancel"
-    android:background="@drawable/qaz">
+    tools:context="com.example.dell.ParkingSystem.Cancel">
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,27 +22,30 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delete"
+        android:text="Cancel"
         android:id="@+id/B1"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="#f9f6f6"
+        android:background="#de051a"
+        android:layout_marginBottom="186dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:id="@+id/E1"
-        android:layout_above="@+id/B1"
-        android:layout_centerHorizontal="true"
         android:textIsSelectable="false"
         android:textSize="20dp"
-        android:hint="Booking id" />
+        android:hint="Booking id"
+        android:layout_above="@+id/B1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Enter Booking Id"
+        android:text="Please enter the  Booking Id"
         android:id="@+id/textView"
         android:layout_above="@+id/E1"
         android:layout_alignStart="@+id/E1" />

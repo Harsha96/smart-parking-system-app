@@ -5,13 +5,24 @@
     android:orientation="vertical"
     android:background="@drawable/qaz">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login"
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        android:layout_marginTop="50dp" />
+
     <EditText
         android:id="@+id/editTextUserNameToLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/user"
         android:ems="10"
-       >
+        android:layout_marginTop="100dp">
 
     </EditText>
 
@@ -22,12 +33,17 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/passwor"
-        />
+        android:layout_marginTop="10dp" />
 
     <Button
         android:id="@+id/buttonSignIn"
-        android:layout_width="fill_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:text="@string/sign_in" />
+        android:text="@string/sign_in"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp"
+        android:background="#f06fd2"
+        android:textColor="#fdf9f9" />
 
 </LinearLayout>

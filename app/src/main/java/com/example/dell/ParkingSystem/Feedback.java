@@ -1,4 +1,4 @@
-package com.example.dell.sampleregistration;
+package com.example.dell.ParkingSystem;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

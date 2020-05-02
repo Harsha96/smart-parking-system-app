@@ -1,8 +1,6 @@
-package com.example.dell.sampleregistration;
+package com.example.dell.ParkingSystem;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;

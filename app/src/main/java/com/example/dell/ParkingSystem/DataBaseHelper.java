@@ -1,15 +1,14 @@
-package com.example.dell.sampleregistration;
-        import android.content.Context;
-        import android.database.sqlite.SQLiteDatabase;
-        import android.database.sqlite.SQLiteDatabase.CursorFactory;
-        import android.database.sqlite.SQLiteOpenHelper;
-        import android.util.Log;
-/**
- * Created by DELL on 3/6/2017.
- */
-public class DataBaseHelper1 extends SQLiteOpenHelper{
+package com.example.dell.ParkingSystem;
 
-    public DataBaseHelper1(Context context, String name, SQLiteDatabase.CursorFactory factory, int version)
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+
+public class DataBaseHelper extends SQLiteOpenHelper
+{
+    public DataBaseHelper(Context context, String name,CursorFactory factory, int version)
     {
         super(context, name, factory, version);
     }
@@ -18,8 +17,7 @@ public class DataBaseHelper1 extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase _db)
     {
-        _db.execSQL(MainDataBaseAdapter.DATABASE_CREATE);
-
+        _db.execSQL(LoginDataBaseAdapter.DATABASE_CREATE);
     }
     // Called when there is a database version mismatch meaning that the version
     // of the database on disk needs to be upgraded to the current version.
@@ -37,4 +35,5 @@ public class DataBaseHelper1 extends SQLiteOpenHelper{
         // Create a new one.
         onCreate(_db);
     }
+
 }

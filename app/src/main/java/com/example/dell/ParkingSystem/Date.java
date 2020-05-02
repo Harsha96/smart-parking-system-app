@@ -1,6 +1,5 @@
-package com.example.dell.sampleregistration;
+package com.example.dell.ParkingSystem;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class Date extends AppCompatActivity {
  CalendarView calender;

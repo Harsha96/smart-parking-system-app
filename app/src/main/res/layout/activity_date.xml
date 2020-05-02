@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.sampleregistration.Date"
+    tools:context="com.example.dell.ParkingSystem.Date"
     android:onClick="onB2"
     android:background="@drawable/qaz">
 
@@ -17,7 +17,7 @@
         android:layout_height="400dp"
         android:id="@+id/calendarView"
         android:clickable="false"
-        android:background="@color/material_deep_teal_500"
+        android:background="@android:color/background_light"
         android:scrollIndicators="right"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true" />
@@ -26,9 +26,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Date"
+        android:text="Calendar"
         android:id="@+id/L1"
-        android:layout_below="@+id/calendarView"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

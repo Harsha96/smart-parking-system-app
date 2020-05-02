@@ -7,8 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dell.sampleregistration.CC"
-    android:background="@drawable/qaz">
+    tools:context="com.example.dell.ParkingSystem.CC"
+    android:background="@drawable/ss_background">
 
     tools:showIn="@layout/activity_home"
     android:background="@color/accent_material_light">
@@ -22,7 +22,8 @@
         android:onClick="BClick"
         android:textColor="@color/abc_search_url_text_pressed"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/B7" />
+        android:layout_alignStart="@+id/B7"
+        android:background="#e5cbca" />
 
     <Button
         android:layout_width="300dp"
@@ -33,7 +34,8 @@
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:onClick="B7Click"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -45,7 +47,8 @@
 
         android:layout_centerHorizontal="true"
         android:onClick="B2Click"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
 
     <Button
         android:layout_width="300dp"
@@ -58,7 +61,8 @@
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:onClick="B3Click"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
 
     <Button
         android:layout_width="300dp"
@@ -69,7 +73,8 @@
         android:layout_below="@+id/B3"        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:onClick="B4Click"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
 
     <Button
         android:layout_width="300dp"
@@ -80,7 +85,8 @@
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:onClick="B5Click"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
 
     <Button
         android:layout_width="300dp"
@@ -91,7 +97,8 @@
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:onClick="B6Click"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
 
     <Button
         android:layout_width="300dp"
@@ -102,6 +109,7 @@
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:onClick="onHelp"
-        android:textColor="@color/abc_search_url_text_pressed" />
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="#e5cbca" />
 
 </RelativeLayout>
