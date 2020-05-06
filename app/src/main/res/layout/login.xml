@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/qaz">
+    android:gravity="center_vertical"
+    android:background="@drawable/qaz"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,31 +20,34 @@
 
     <EditText
         android:id="@+id/editTextUserNameToLogin"
-        android:layout_width="match_parent"
+        android:layout_width="351dp"
         android:layout_height="wrap_content"
         android:hint="@string/user"
         android:ems="10"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp">
 
     </EditText>
 
     <EditText
         android:id="@+id/editTextPasswordToLogin"
-        android:layout_width="match_parent"
+        android:layout_width="348dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/passwor"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
 
     <Button
         android:id="@+id/buttonSignIn"
-        android:layout_width="320dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
         android:background="#f06fd2"
         android:textColor="#fdf9f9" />
 
