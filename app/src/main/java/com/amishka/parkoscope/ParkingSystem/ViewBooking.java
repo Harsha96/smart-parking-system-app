@@ -1,4 +1,4 @@
-package com.example.dell.ParkingSystem;
+package com.amishka.parkoscope.ParkingSystem;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

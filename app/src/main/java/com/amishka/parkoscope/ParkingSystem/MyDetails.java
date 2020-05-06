@@ -1,4 +1,4 @@
-package com.example.dell.ParkingSystem;
+package com.amishka.parkoscope.ParkingSystem;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

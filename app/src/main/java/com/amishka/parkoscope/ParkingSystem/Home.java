@@ -1,4 +1,4 @@
-package com.example.dell.ParkingSystem;
+package com.amishka.parkoscope.ParkingSystem;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,12 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-public class Help extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_help);
+        setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -32,10 +32,39 @@ public class Help extends AppCompatActivity {
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
                 } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(Help.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Home.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
     }
-
+    public void BClick(View v)
+    {
+        Intent intentHome=new Intent(getApplicationContext(),ViewBooking.class);
+        startActivity(intentHome);
+    }
+    public void B2Click(View v)
+    {
+        Intent intentHome=new Intent(getApplicationContext(),ViewBooking.class);
+        startActivity(intentHome);
+    }
+    public void B3Click(View v)
+    {
+        Intent intentHome=new Intent(getApplicationContext(),MyDetails.class);
+        startActivity(intentHome);
+    }
+    public void B4Click(View v)
+    {
+        Intent intentHome=new Intent(getApplicationContext(),Feedback.class);
+        startActivity(intentHome);
+    }
+    public void B5Click(View v)
+    {
+        Intent intentHome=new Intent(getApplicationContext(),Cancel.class);
+        startActivity(intentHome);
+    }
+    public void B6Click(View v)
+    {
+        Intent intentHome=new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intentHome);
+    }
 }

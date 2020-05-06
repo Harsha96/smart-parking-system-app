@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dell.ParkingSystem"
+    package="com.amishka.parkoscope.ParkingSystem"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -18,7 +18,7 @@
         android:label="Parkoscope"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.dell.ParkingSystem.MainActivity"
+            android:name="com.amishka.parkoscope.ParkingSystem.MainActivity"
             android:label="Parkoscope">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,32 +26,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.dell.ParkingSystem.SignUPActivity" />
-        <activity android:name="com.example.dell.ParkingSystem.ViewBooking" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.SignUPActivity" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.ViewBooking" />
         <activity
-            android:name="com.example.dell.ParkingSystem.MyDetails"
+            android:name="com.amishka.parkoscope.ParkingSystem.MyDetails"
             android:label="@string/title_activity_my_details"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.dell.ParkingSystem.Home"
+            android:name="com.amishka.parkoscope.ParkingSystem.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.dell.ParkingSystem.Feedback" />
-        <activity android:name="com.example.dell.ParkingSystem.Cancel" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.Feedback" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.Cancel" />
         <activity
-            android:name="com.example.dell.ParkingSystem.Create"
+            android:name="com.amishka.parkoscope.ParkingSystem.Create"
             android:label="Create" />
         <activity
-            android:name="com.example.dell.ParkingSystem.MyDetails2"
+            android:name="com.amishka.parkoscope.ParkingSystem.MyDetails2"
             android:label="Create" />
-        <activity android:name="com.example.dell.ParkingSystem.CC" />
-        <activity android:name="com.example.dell.ParkingSystem.NewBooking" />
-        <activity android:name="com.example.dell.ParkingSystem.EnterInformation" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.CC" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.NewBooking" />
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.EnterInformation" />
         <activity
-            android:name="com.example.dell.ParkingSystem.Help"
+            android:name="com.amishka.parkoscope.ParkingSystem.Help"
             android:label="@string/title_activity_help"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.example.dell.ParkingSystem.Date"></activity>
+        <activity android:name="com.amishka.parkoscope.ParkingSystem.Date"></activity>
     </application>
 
 </manifest>

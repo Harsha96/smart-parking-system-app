@@ -1,4 +1,4 @@
-package com.example.dell.ParkingSystem;
+package com.amishka.parkoscope.ParkingSystem;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

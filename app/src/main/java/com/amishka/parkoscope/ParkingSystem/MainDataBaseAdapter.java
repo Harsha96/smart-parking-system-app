@@ -1,4 +1,4 @@
-package com.example.dell.ParkingSystem;
+package com.amishka.parkoscope.ParkingSystem;
 /**
  * Created by DELL on 3/5/2017.
  */
